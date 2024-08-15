@@ -5,8 +5,9 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build --base=/todo-app/",
-    "preview": "vite preview"
+    "build": "vite build --base=/todo/",
+    "preview": "vite preview",
+    "push": "git add .&git commit -m fix&git push"
   },
   "devDependencies": {
     "glob": "^8.1.0",
